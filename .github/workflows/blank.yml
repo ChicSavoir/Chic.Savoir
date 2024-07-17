@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chic Savoir</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .about, .products, .contact {
+            padding: 20px;
+            background: #fff;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .about h2, .products h2, .contact h2 {
+            color: #333;
+        }
+        .product-item {
+            margin-bottom: 20px;
+        }
+        .product-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form input, .contact form textarea {
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Chic Savoir</h1>
+            <p>Elegance Redefined</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="about">
+            <h2>About Us</h2>
+            <p>Welcome to Chic Savoir. Inspired by the timeless elegance of French fashion and the bold creativity of Kaye Wisdom and Louis Vuitton, our mission is to redefine elegance with unique, stylish, and high-quality clothing. Our collections are designed to empower individuals to express themselves with sophistication and grace.</p>
+        </section>
+
+        <section class="products">
+            <h2>Our Products</h2>
+            <div class="product-item">
+                <h3>Parisian Chic Jacket</h3>
+                <img src="path/to/image1.jpg" alt="Parisian Chic Jacket">
+                <p>Experience the essence of Parisian style with our signature jacket. Made from premium fabrics, this piece combines classic elegance with modern flair.</p>
+            </div>
+            <div class="product-item">
+                <h3>Elegance Noir Dress</h3>
+                <img src="path/to/image2.jpg" alt="Elegance Noir Dress">
+                <p>Our Elegance Noir Dress is a masterpiece of fashion. Perfect for any formal occasion, it exudes sophistication and timeless beauty.</p>
+            </div>
+            <!-- Add more product items as needed -->
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <form action="mailto:info@chicsavoir.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Chic Savoir. All rights reserved.</p>
+        <p>Follow us on:
+            <a href="https://www.instagram.com/chicsavoir" target="_blank" style="color: #fff;">Instagram</a>,
+            <a href="https://www.facebook.com/chicsavoir" target="_blank" style="color: #fff;">Facebook</a>,
+            <a href="https://www.twitter.com/chicsavoir" target="_blank" style="color: #fff;">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>
